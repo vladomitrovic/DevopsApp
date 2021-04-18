@@ -1,0 +1,2 @@
+com/testkth/devops/BuildConfig.java
+ com.testkth.devops.BuildConfig
