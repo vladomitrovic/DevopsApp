@@ -58,6 +58,6 @@ jobs:
           # 3
           packageName: com.testkth.devops
           releaseFiles: app-release-unsigned-signed.apk
-          track: alphaalpha
+          track: alpha
           #userFraction: 0.50
           #mappingFile: mapping.txt
