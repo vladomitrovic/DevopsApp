@@ -36,7 +36,7 @@ jobs:
           path: ${{steps.sign_app.outputs.signedReleaseFile}}
 
   deploy-play-store:
-    needs: [build]
+    needs: [generate-and-sign]
     runs-on: ubuntu-latest
     steps:
       # 1
