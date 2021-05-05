@@ -51,3 +51,6 @@ jobs:
           packageName: com.testkth.devops
           releaseFiles: app-release-unsigned-signed.apk
           track: alpha
+      - uses: mscoutermarsh/ascii-art-action@master
+        with:
+          text: 'Devops is FUN !'
